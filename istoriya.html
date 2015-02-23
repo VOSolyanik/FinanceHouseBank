@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Банк финансовый дом</title>
+	<link rel="stylesheet" href="dist/css/all.min.css">
+	<!--[if IE]>
+		<script src="dist/js/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<section class="sidebar">
+		<header class="header">
+			<a href="#" class="logo">
+				<img src="dist/img/logo.png" alt="Банк финансовый дом">
+			</a>
+		</header>
+		<div class="user-data">
+			<div class="user-name">
+				<i class="icon icon-user"></i>Онегин И. В.
+			</div>
+			<div class="user-bill-data">
+				<div class="user-bill-number">
+					Счет: <span class="bill-number">1234567890987</span>
+				</div>
+				<div class="user-bill-amount">
+					<span class="amount-rub">4</span> руб. <span class="amount-coins">49</span> коп.
+				</div>
+			</div>
+		</div>
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-item"><a href="#">Перевести</a></li>
+				<li class="menu-item"><a href="#">Пополнить</a></li>
+				<li class="menu-item"><a href="#">Снять деньги</a></li>
+				<li class="menu-item active">
+					<a href="#">История</a>
+					<ul class="sub-menu">
+						<li class="sub-menu-item"><a href="#">Вывод</a></li>
+						<li class="sub-menu-item"><a href="#">Пополнение</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a href="#">Счета</a></li>
+				<li class="menu-item"><a href="#">Управление кошельком</a></li>
+			</ul>
+		</nav>
+		<footer class="footer">
+			<ul class="footer-menu">
+				<li class="footer-menu-item">
+					<a href="#"><i class="icon icon-lock"></i>Настройки аккаунта</a>
+				</li>
+				<li class="footer-menu-item"
+				>
+					<a href="#"><i class="icon icon-exit"></i>Выйти</a>
+				</li>
+			</ul>
+			<p class="copyright">&copy; 2014, Все права защищены</p>
+		</footer>
+	</section>
+	<section class="content">
+		<div class="payments-history h-pt-45">
+			<h4 class="title">История</h4>
+			<table class="payments-history-table">
+				<thead>
+					<tr>
+						<td colspan="2" rowspan="2"><i class="icon icon-star-yellow"></i></td>
+						<td colspan="1" rowspan="2">Дата</td>
+						<td colspan="2" rowspan="1">Сумма, руб.</td>
+						<td colspan="2" rowspan="2">Название</td>
+					</tr>
+					<tr>
+						<td colspan="1" rowspan="1">Приход</td>
+						<td colspan="1" rowspan="1">Расход</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="tranzaction-deposit">
+						<td><i class="icon icon-star-gray"></td>
+						<td></td>
+						<td>11.02.2015 в 10:56</td>
+						<td>134 000,00</td>
+						<td></td>
+						<td><a href="#">Возврат средств от: ITUNES.COM/BILL</a></td>
+					</tr>
+					<tr class="tranzaction-withdraw">
+						<td><i class="icon icon-star-gray"></td>
+						<td></td>
+						<td>11.02.2015 в 10:56</td>
+						<td></td>
+						<td>134 000,00</td>
+						<td><a href="#">Возврат средств от: ITUNES.COM/BILL</a></td>
+					</tr>
+					<tr class="tranzaction-deposit">
+						<td><i class="icon icon-star-gray"></td>
+						<td></td>
+						<td>11.02.2015 в 10:56</td>
+						<td>134 000,00</td>
+						<td></td>
+						<td><a href="#">Возврат средств от: ITUNES.COM/BILL</a></td>
+					</tr>
+					<tr class="tranzaction-withdraw">
+						<td><i class="icon icon-star-gray"></td>
+						<td></td>
+						<td>11.02.2015 в 10:56</td>
+						<td></td>
+						<td>134 000,00</td>
+						<td><a href="#">Возврат средств от: ITUNES.COM/BILL</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="last-tranzaction">
+			<i class="icon icon-clock"></i>Последняя операция с вашим счетом: 
+			<span class="tranzaction-name">Магазин AKADO.A-3</span>
+			<span class="tranzaction-date">30 января</span>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="dist/js/script.js"></script>
+	<!--[if lt IE 10]>
+		<script type="text/javascript" src="dist/js/placeholder.js"></script>
+	<![endif]-->
+</body>
+</html>
