@@ -64,7 +64,7 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('build', ['cssMin', 'jsMin', 'compressImages']);
+gulp.task('build', ['cssMin', 'jsMin', 'compressImages', 'fonts']);
 
 gulp.task('watch', function() {
   gulp.watch('./src/css/*.css', ['cssConcat']);
